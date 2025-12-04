@@ -1,0 +1,209 @@
+body{
+    background: var(--card-blue-1);
+}
+:root {
+  --card-blue: linear-gradient(160deg, #030a1a 0%, #061c33 40%, #0a4d6a 90%);
+  --card-blue-text: #dbf3ff; 
+  --card-blue-1: linear-gradient(20deg, #11b8d5 10%, #09333f 50%, #264c7a 100%);
+}
+
+h1,p {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main .heading {
+    text-align: center;
+    font-size: 25px;
+    color:#dbf3ff;
+}
+
+hr {
+    height: 2px;
+    border: none;
+    background: linear-gradient(90deg, #00aeff, #08151d, #1100ff,#0b91e5);
+    box-shadow: 10px 0 8px #38b6ff, 10px 0 15px #0ea5e9;
+    border-radius: 10px;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+}
+
+.main .cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-self:center;
+    margin-top: 50px;
+}
+
+.main .cards .card {
+    height: 380px;
+    width: 280px;
+    border: 1px solid #00aeff;
+    border-radius: 15px;
+    padding-bottom: 50px;
+    background: var(--card-blue);
+    color: var(--card-blue-text);
+    transition: transform 0.2s ease-in-out;
+    overflow: hidden;
+}
+
+.main .cards .card:hover {
+    transform: scale(1.05);
+    box-shadow: inset 1px 1px 2px #38b6ff, 2px 1px 2px #0ea5e9, 1px 1px 1px #0ea5e9;
+}
+
+
+.main .cards .card .img {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.main .cards .card .player {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid rgb(36, 116, 182);
+}
+
+.main .cards .card .role {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.main .cards .card .description {
+    padding: 10px;
+}
+
+.main p {
+    font-size: 18px;
+    margin: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main .cards .card .bar {
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+    border-radius: 25px;
+}
+
+/* virat kohli */
+.main .cards .card .inner-bar-vr {
+    height: 10px;
+    width: 98%;
+    background-color: rgb(17, 219, 125);
+    border-radius: 25px;
+}
+
+.main .cards .card .inner-bar-vs {
+    height: 10px;
+    width: 80%;
+    background-color: rgb(17, 219, 125);
+    border-radius: 25px;
+}
+
+.main .cards .card .inner-bar-vw {
+    height: 10px;
+    width: 40%;
+    background-color: rgb(17, 219, 125);
+    border-radius: 25px;
+}
+
+/* rohit sharma */
+.main .cards .card .inner-bar-rs {
+    height: 10px;
+    width: 85%;
+    background-color: rgb(17, 219, 125);
+    border-radius: 25px;
+}
+
+.main .cards .card .inner-bar-rr {
+    height: 10px;
+    width: 89%;
+    background-color: rgb(17, 219, 125);
+    border-radius: 25px;
+}
+
+.main .cards .card .inner-bar-rw {
+    height: 10px;
+    width: 60%;
+    background-color: rgb(17, 219, 125);
+    border-radius: 25px;
+}
+
+/* hardik pandya */
+.main .cards .card .inner-bar-hs {
+    height: 10px;
+    width: 85%;
+    background-color: rgb(17, 219, 125);
+    border-radius: 25px;
+}
+
+.main .cards .card .inner-bar-hr {
+    height: 10px;
+    width: 60%;
+    background-color: rgb(17, 219, 125);
+    border-radius: 25px;
+}
+
+.main .cards .card .inner-bar-hw {
+    height: 10px;
+    width: 69%;
+    background-color: rgb(17, 219, 125);
+    border-radius: 25px;
+}
+
+/* bhuvaneswar */
+.main .cards .card .inner-bar-bs {
+    height: 10px;
+    width: 40%;
+    background-color: rgb(17, 219, 125);
+    border-radius: 25px;
+}
+
+.main .cards .card .inner-bar-br {
+    height: 10px;
+    width: 80%;
+    background-color: rgb(17, 219, 125);
+    border-radius: 25px;
+}
+
+.main .cards .card .inner-bar-bw {
+    height: 10px;
+    width: 95%;
+    background-color: rgb(17, 219, 125);
+    border-radius: 25px;
+}
+
+/* rishab panth */
+.main .cards .card .inner-bar-r {
+    height: 10px;
+    width: 55%;
+    background-color: rgb(17, 219, 125);
+    border-radius: 25px;
+}
+
+.main .cards .card .inner-bar-w {
+    height: 10px;
+    width: 25%;
+    background-color: rgb(17, 219, 125);
+    border-radius: 25px;
+}
+
+.main .cards .card .inner-bar-s {
+    height: 10px;
+    width: 89%;
+    background-color: rgb(17, 219, 125);
+    border-radius: 25px;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #dbf3ff;
+}
